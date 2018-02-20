@@ -1,11 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('../node_modules/bootstrap/dist/css/bootstrap.min.css');
 body {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
     color: #5a5a5a;
+    font-family:Bellefair, Roboto;
   }
-
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+}
  /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -64,7 +69,17 @@ body {
     letter-spacing: -.05rem;
   }
   
-  
+  /* generic card style */
+  .card{
+    border: 1px solid #aaa;
+    box-shadow: 4px 15px 20px #888;
+    transition: 0.3s all ease-in-out;
+  }
+  .card:hover{
+    box-shadow: 8px 10px 15px #777;
+  }
+
+  /* card style end */
   /* RESPONSIVE CSS
   -------------------------------------------------- */
   

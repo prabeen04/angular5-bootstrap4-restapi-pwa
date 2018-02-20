@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 
 @Injectable()
 export class CoteService {
-  base_url: string = 'http://192.168.1.99:8080/testRestApi/employees';
+  base_url: string = 'http://jsonplaceholder.typicode.com/posts/';
   constructor(private http: HttpClient) { }
 
   getData(){
