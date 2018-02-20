@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RouterModule, Routes } from '@angular/router';
@@ -55,6 +56,7 @@ export function provideConfig() {
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     ReactiveFormsModule,
     RouterModule.forRoot(appRoutes),
     NgbModule.forRoot(),
