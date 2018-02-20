@@ -1,3 +1,10 @@
+export class Users {
+  username: string;
+  email: string;
+  password: string;
+  confirm: string;
+}
+
 export class Hero {
     id = 0;
     name = '';
